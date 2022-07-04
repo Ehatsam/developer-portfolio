@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(204, 146, 20);
+    margin: 0%;
 }
 
 h1 {
@@ -8,7 +8,7 @@ h1 {
 }
 
 .meron {
-    color: paleturquoise;
+    color: rgb(233, 149, 22);
 }
 
 section {
@@ -27,6 +27,13 @@ section {
 .HIRE1 {
     color: wheat;
     text-decoration: none;
-    background-color: navy;
+    background-color: rgb(13, 206, 196);
+    font-weight: 700;
     padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
