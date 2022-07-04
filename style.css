@@ -1,9 +1,32 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(204, 146, 20);
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.meron{
+
+.meron {
     color: paleturquoise;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 3%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.HIRE1 {
+    color: wheat;
+    text-decoration: none;
+    background-color: navy;
+    padding: 10px 40px;
 }
