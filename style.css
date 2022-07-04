@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -25,7 +26,7 @@ section {
 }
 
 .HIRE1 {
-    color: wheat;
+    color: rgb(2, 1, 0);
     text-decoration: none;
     background-color: rgb(13, 206, 196);
     font-weight: 700;
@@ -36,4 +37,22 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.DONWLOAD {
+    color: rgb(2, 1, 0);
+    text-decoration: none;
+    background-color: rgb(13, 206, 196);
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.big-dream {
+    background-image: url(images/dream-bg.png)
+}
+
+.big-dream {
+    background-repeat: no-repeat;
+    background-position: right;
 }
