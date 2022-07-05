@@ -11,7 +11,7 @@ h1 {
     color: rgb(233, 149, 22);
 }
 
-section {
+.fexible-Container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -55,4 +55,33 @@ section {
 .big-dream {
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border-left: solid 7px rgb(78, 39, 2);
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack-developer {
+    border-left: solid 7px rgb(13, 206, 196);
+}
+
+footer p {
+    text-align: center;
 }
